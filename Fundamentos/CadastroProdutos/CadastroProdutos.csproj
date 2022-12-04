@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{0AD43225-86E1-4003-9942-23FC439C7654}</ProjectGuid>
+    <ProjectGuid>{54ABEA7F-5CC7-427E-9D6C-CAD7208E67CF}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>CadastroBebidas</RootNamespace>
-    <AssemblyName>CadastroBebidas</AssemblyName>
+    <RootNamespace>CadastroProdutos</RootNamespace>
+    <AssemblyName>CadastroProdutos</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>

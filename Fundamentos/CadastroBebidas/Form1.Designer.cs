@@ -39,6 +39,8 @@
             this.btnSalvar = new System.Windows.Forms.Button();
             this.btnLimpar = new System.Windows.Forms.Button();
             this.label5 = new System.Windows.Forms.Label();
+            this.dgBebidas = new System.Windows.Forms.DataGridView();
+            ((System.ComponentModel.ISupportInitialize)(this.dgBebidas)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -135,11 +137,20 @@
             this.label5.TabIndex = 10;
             this.label5.Text = "Sistema de cadastro de bebidas";
             // 
+            // dgBebidas
+            // 
+            this.dgBebidas.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgBebidas.Location = new System.Drawing.Point(42, 281);
+            this.dgBebidas.Name = "dgBebidas";
+            this.dgBebidas.Size = new System.Drawing.Size(849, 165);
+            this.dgBebidas.TabIndex = 11;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(932, 476);
+            this.Controls.Add(this.dgBebidas);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.btnLimpar);
             this.Controls.Add(this.btnSalvar);
@@ -153,6 +164,7 @@
             this.Controls.Add(this.label1);
             this.Name = "Form1";
             this.Text = "Form1";
+            ((System.ComponentModel.ISupportInitialize)(this.dgBebidas)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -171,6 +183,7 @@
         private System.Windows.Forms.Button btnSalvar;
         private System.Windows.Forms.Button btnLimpar;
         private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.DataGridView dgBebidas;
     }
 }
 
